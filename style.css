@@ -130,7 +130,7 @@ table {
 
 /* !-----------------------------------My css-------------------------------------------- */
 body {
-  background-image: url(../gambar/sabaton.jpg);
+  background-image: url(gambar/sabaton.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -163,7 +163,7 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  background-image: url(../gambar/twitterRibbon.png);
+  background-image: url(gambar/twitterRibbon.png);
   background-repeat: no-repeat;
   top: 0;
   right: 0;
@@ -209,7 +209,7 @@ body {
   border-bottom: 5px solid rgb(219, 200, 167);
   height: 350px;
   overflow: hidden;
-  background-image: url(../gambar/sabaton.jpg);
+  background-image: url(gambar/sabaton.jpg);
   background-position: 0 -20px;
   background-size: cover;
 }
