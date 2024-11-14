@@ -1,0 +1,296 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* !-----------------------------------My css-------------------------------------------- */
+body {
+  background-image: url(../gambar/sabaton.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  font-family: monospace, sans-serif;
+}
+
+.top-bar {
+  background-color: rgba(22, 14, 0, 0.774);
+  position: fixed;
+  height: 70px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-bottom: 3px solid rgb(1, 0, 0);
+  font-size: 80px;
+  line-height: 70px;
+  text-align: center;
+  color: rgb(203, 203, 203);
+}
+.container {
+  width: 960px;
+  margin: 80px auto;
+  border: 2px solid rgba(22, 22, 22, 0.774);
+  background-color: rgba(247, 213, 154, 0.774);
+  position: relative;
+}
+
+.twitter {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-image: url(../gambar/twitterRibbon.png);
+  background-repeat: no-repeat;
+  top: 0;
+  right: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: -45px;
+  right: -49px;
+}
+
+.header .judul {
+  font: bold 30px/30px monospace, sans-serif;
+  height: 50px;
+  line-height: 50px;
+  padding: 5px 0 5px 20px;
+}
+
+.navigation {
+  background-color: rgba(198, 157, 86, 0.774);
+  padding: 3px 0 3px;
+}
+.navigation ul li {
+  display: inline-block;
+  padding: 4px 0px 4px;
+
+  border-right: 1px solid black;
+}
+
+.navigation ul li:hover {
+  display: inline-block;
+  padding: 4px 0px 4px;
+  border-right: 1px solid black;
+  background-color: #543224;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 20px 0 20px;
+  color: black;
+}
+.image {
+  border-top: 5px solid rgba(110, 73, 9, 0.774);
+  border-bottom: 5px solid rgb(219, 200, 167);
+  height: 350px;
+  overflow: hidden;
+  background-image: url(../gambar/sabaton.jpg);
+  background-position: 0 -20px;
+  background-size: cover;
+}
+
+.main {
+  width: 600px;
+  box-sizing: border-box;
+  font-family: monospace, sans-serif;
+  margin-top: 15px;
+  line-height: 25px;
+  text-align: justify;
+  float: left;
+}
+
+.main .jkonten {
+  margin: 0 20px;
+  font: bold 20px/30px monospace, sans-serif;
+}
+.main a {
+  text-decoration: none;
+  color: #da6d42;
+}
+.main span {
+  line-height: 10px;
+  font-size: 10px;
+}
+
+.main p {
+  margin: 0px 0px 20px 20px;
+}
+
+.sidebar {
+  float: right;
+  width: 300px;
+  height: 600px;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+.sidebar h3 {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.sidebar img {
+  width: 50%;
+  padding-right: 5px;
+  float: left;
+}
+
+.sidebar p {
+  font: 15px/20px darkgray;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: rgba(66, 47, 5, 0.803);
+}
+/* 
+.clear {
+  clear: both;
+} */
+
+/* !My CSS */
+
+.footer {
+  padding: 10px;
+  background-color: #543224;
+}
+
+.footer p {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 10px;
+}
+
+/* clear fix */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
